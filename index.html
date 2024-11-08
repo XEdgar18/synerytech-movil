@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistencia de Alumnos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">Asistencia <span>Alumnos</span></div>
+        <nav class="navbar">
+            <a href="#dashboard">Dashboard</a>
+            <a href="#grupos">Grupos</a>
+            <a href="#avisos">Avisos</a>
+            <a href="#logout">Cerrar Sesión</a>
+        </nav>
+    </header>
+
+    <!-- Main Dashboard Section for Alumnos -->
+    <section class="dashboard-section" id="dashboard">
+        <div class="dashboard-container">
+            <h1>Dashboard del Alumno</h1>
+
+            <!-- Resumen de Asistencias -->
+            <div class="attendance-summary">
+                <h2>Resumen de Asistencias</h2>
+                <p>Asistencias: <span>10</span></p>
+                <p>Inasistencias: <span>2</span></p>
+                <p>Retardos: <span>1</span></p>
+            </div>
+
+            <!-- Historial de Asistencias -->
+            <div class="attendance-history">
+                <h2>Historial de Asistencias</h2>
+                <table>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Estado</th>
+                        <th>Hora de Llegada</th>
+                    </tr>
+                    <tr>
+                        <td>2023-11-01</td>
+                        <td>Presente</td>
+                        <td>08:05</td>
+                    </tr>
+                    <tr>
+                        <td>2023-11-02</td>
+                        <td>Ausente</td>
+                        <td>-</td>
+                    </tr>
+                    <!-- Más filas pueden añadirse aquí -->
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grupos Section -->
+    <section class="groups-section" id="grupos">
+        <div class="dashboard-container">
+            <h2>Mis Grupos</h2>
+            <ul>
+                <li>Grupo de Matemáticas</li>
+                <li>Grupo de Ciencias</li>
+                <!-- Más grupos pueden añadirse aquí -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Avisos Section -->
+    <section class="announcements-section" id="avisos">
+        <div class="dashboard-container">
+            <h2>Avisos</h2>
+            <ul>
+                <li><strong>2023-11-01:</strong> No habrá clase de matemáticas el viernes.</li>
+                <li><strong>2023-11-03:</strong> Recordatorio de entrega de proyecto de ciencias.</li>
+                <!-- Más avisos pueden añadirse aquí -->
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Asistencia Alumnos © 2023</p>
+    </footer>
+</body>
+</html>
